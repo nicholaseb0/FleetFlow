@@ -1,0 +1,9 @@
+[project]
+name = "fleetflow"
+version = "1.0.0"
+description = "Multi-robot warehouse simulator with cooperative A* pathfinding"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
